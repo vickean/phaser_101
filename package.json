@@ -1,10 +1,16 @@
 {
   "dependencies": {
-    "http-server": "^0.12.3",
-    "nodemon": "^2.0.5"
+    "parcel-bundler": "^1.12.4",
+    "phaser": "^3.24.1"
   },
   "scripts": {
-    "start": "http-server -p 3000",
-    "dev": "nodemon --watch public"
-  }
+    "start": "parcel src/index.html -p 3000"
+  },
+  "type": "module",
+  "name": "phaser_101",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "repository": "https://github.com/vickean/phaser_101.git",
+  "author": "vickean <vickean@gmail.com>",
+  "license": "MIT"
 }
