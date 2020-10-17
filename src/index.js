@@ -3,9 +3,10 @@ import TitleScreen from "./scenes/TitleScreen";
 import Game from "./scenes/Game";
 
 const config = {
-  height: 400,
+  height: 500,
   width: 800,
   type: Phaser.AUTO,
+  backgroundColor: "#616161",
   physics: {
     default: "arcade",
     arcade: {
